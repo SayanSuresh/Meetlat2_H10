@@ -8,11 +8,11 @@ namespace Sport.Classes
     class WaterPolo
     {
         // Propeties
-        public string NaamSpeler { get; set; }
-        public int MutsNummer { get; set; }
-        public bool IsDoelMan { get; set; }
-        public bool IsReserve { get; set; }
-        public reeks Reeks { get; set; }
+        private string NaamSpeler { get; set; }
+        private int MutsNummer { get; set; }
+        private bool IsDoelMan { get; set; }
+        private bool IsReserve { get; set; }
+        private reeks Reeks { get; set; }
 
         // Methodes
         public void GooiBal()
